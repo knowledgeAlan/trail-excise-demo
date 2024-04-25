@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 public class UserRegistrationServiceImpl implements UserRegistrationService {
     @Override
     public Boolean registerUser(User user) {
-        return null;
+        return true;
     }
 
     @Override
