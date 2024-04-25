@@ -1,5 +1,6 @@
 package com.zcd.common;
 
+import jakarta.validation.Valid;
 import org.springframework.util.MultiValueMap;
 
 import java.util.Map;
@@ -18,6 +19,7 @@ public abstract  class HttpApi<T> {
     private MultiValueMap<String,String> metaData;
 
 
+    @Valid
     private T body;
 
 
