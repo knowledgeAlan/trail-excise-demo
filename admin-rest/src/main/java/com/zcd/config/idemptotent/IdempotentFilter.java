@@ -9,12 +9,7 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
 
-/**
- * @author uniweb
- * @version 1.0
- * @description:
- * @date 26/4/24 4:20 pm
- */
+
 public class IdempotentFilter extends OncePerRequestFilter {
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
